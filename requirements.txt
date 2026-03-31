@@ -1,0 +1,44 @@
+# 基础依赖
+pip
+setuptools
+wheel
+
+# 核心依赖
+requests
+typing-extensions
+
+# NLP相关
+nltk
+sentence-transformers
+keybert
+
+# UI
+customtkinter>=5.2.0
+
+# 安全依赖
+cryptography>=41.0.0
+keyring>=24.0.0
+
+# 图标支持
+Pillow>=10.0.0
+
+# 向量存储
+chromadb
+
+# LangChain相关
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain_chroma
+
+# AI接口 (OpenAI兼容格式)
+openai
+
+# 支持的国产大模型服务:
+# - 智谱AI (ZhipuAI): https://open.bigmodel.cn
+# - 火山引擎 (VolcanoEngine): https://www.volcengine.com
+# - DeepSeek: https://platform.deepseek.com
+# - 阿里云百炼: https://bailian.console.aliyun.com
+# - 硅基流动: https://account.siliconflow.cn
+# - Ollama (本地部署): https://ollama.com
